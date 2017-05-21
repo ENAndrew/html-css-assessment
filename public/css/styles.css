@@ -1,0 +1,93 @@
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+
+.jumbotron {
+    background: url("../img/main-bg.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%; 
+}
+
+
+.navbar .link {
+    text-align: center;  
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.smIcons {
+    display: none;
+    text-align: right;
+}
+
+.smIcons a {
+    color: white;
+    font-size: 2em;
+    padding-left: 30px;
+}
+
+.ham {
+    display: none;
+    float: left;
+}
+
+.ham a {
+    color: white;
+    font-size: 2em;
+}
+
+.main {
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.main h1 {
+    font-size: 125px;
+    margin-bottom: 0px;
+    
+}
+
+.main h3 {
+    font-size: 40px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.down {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 5em;
+}
+
+.down a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+    
+    .link {
+        display: none;
+    }
+    
+    .smIcons {
+        display: block;
+    }
+    
+    .ham {
+        display: block;
+    }
+}
